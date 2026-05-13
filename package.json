@@ -1,0 +1,30 @@
+{
+  "name": "riscv-instruction-explorer",
+  "version": "1.0.0",
+  "description": "RISC-V Instruction Set Explorer – LFX Mentorship 2026 coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start":         "node index.js",
+    "tier1":         "node src/tier1.js",
+    "tier2":         "node src/tier2.js",
+    "tier3":         "node src/tier3.js",
+    "test":          "jest --runInBand --testTimeout=60000",
+    "test:verbose":  "jest --runInBand --testTimeout=60000 --verbose"
+  },
+  "keywords": ["risc-v", "isa", "instructions", "lfx", "mentorship"],
+  "author": "Munesh Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

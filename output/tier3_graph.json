@@ -1,0 +1,1024 @@
+{
+  "nodes": [
+    {
+      "id": "a"
+    },
+    {
+      "id": "c"
+    },
+    {
+      "id": "c_d"
+    },
+    {
+      "id": "d"
+    },
+    {
+      "id": "d_zfa"
+    },
+    {
+      "id": "d_zfhmin"
+    },
+    {
+      "id": "f"
+    },
+    {
+      "id": "f_zfa"
+    },
+    {
+      "id": "h"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "m"
+    },
+    {
+      "id": "q"
+    },
+    {
+      "id": "q_zfa"
+    },
+    {
+      "id": "q_zfhmin"
+    },
+    {
+      "id": "rv32_c"
+    },
+    {
+      "id": "rv32_c_f"
+    },
+    {
+      "id": "rv32_d_zfa"
+    },
+    {
+      "id": "rv32_zk"
+    },
+    {
+      "id": "rv32_zkn"
+    },
+    {
+      "id": "rv32_zknd"
+    },
+    {
+      "id": "rv32_zkne"
+    },
+    {
+      "id": "rv32_zknh"
+    },
+    {
+      "id": "rv64_a"
+    },
+    {
+      "id": "rv64_c"
+    },
+    {
+      "id": "rv64_d"
+    },
+    {
+      "id": "rv64_f"
+    },
+    {
+      "id": "rv64_h"
+    },
+    {
+      "id": "rv64_i"
+    },
+    {
+      "id": "rv64_m"
+    },
+    {
+      "id": "rv64_q"
+    },
+    {
+      "id": "rv64_q_zfa"
+    },
+    {
+      "id": "rv64_zacas"
+    },
+    {
+      "id": "rv64_zba"
+    },
+    {
+      "id": "rv64_zbb"
+    },
+    {
+      "id": "rv64_zbkb"
+    },
+    {
+      "id": "rv64_zbp"
+    },
+    {
+      "id": "rv64_zbs"
+    },
+    {
+      "id": "rv64_zcb"
+    },
+    {
+      "id": "rv64_zfh"
+    },
+    {
+      "id": "rv64_zk"
+    },
+    {
+      "id": "rv64_zkn"
+    },
+    {
+      "id": "rv64_zknd"
+    },
+    {
+      "id": "rv64_zkne"
+    },
+    {
+      "id": "rv64_zknh"
+    },
+    {
+      "id": "rv64_zkr"
+    },
+    {
+      "id": "rv64_zks"
+    },
+    {
+      "id": "s"
+    },
+    {
+      "id": "sdext"
+    },
+    {
+      "id": "smrnmi"
+    },
+    {
+      "id": "ssctr"
+    },
+    {
+      "id": "svinval"
+    },
+    {
+      "id": "svinval_h"
+    },
+    {
+      "id": "system"
+    },
+    {
+      "id": "u"
+    },
+    {
+      "id": "v"
+    },
+    {
+      "id": "zabha"
+    },
+    {
+      "id": "zabha_zacas"
+    },
+    {
+      "id": "zacas"
+    },
+    {
+      "id": "zalasr"
+    },
+    {
+      "id": "zawrs"
+    },
+    {
+      "id": "zba"
+    },
+    {
+      "id": "zbb"
+    },
+    {
+      "id": "zbc"
+    },
+    {
+      "id": "zbkb"
+    },
+    {
+      "id": "zbkc"
+    },
+    {
+      "id": "zbkx"
+    },
+    {
+      "id": "zbp"
+    },
+    {
+      "id": "zbs"
+    },
+    {
+      "id": "zcb"
+    },
+    {
+      "id": "zcmop"
+    },
+    {
+      "id": "zcmp"
+    },
+    {
+      "id": "zcmt"
+    },
+    {
+      "id": "zfbfmin"
+    },
+    {
+      "id": "zfh"
+    },
+    {
+      "id": "zfh_zfa"
+    },
+    {
+      "id": "zfhmin"
+    },
+    {
+      "id": "zibi"
+    },
+    {
+      "id": "zicbo"
+    },
+    {
+      "id": "zicfiss"
+    },
+    {
+      "id": "zicond"
+    },
+    {
+      "id": "zicsr"
+    },
+    {
+      "id": "zifencei"
+    },
+    {
+      "id": "zimop"
+    },
+    {
+      "id": "zk"
+    },
+    {
+      "id": "zkn"
+    },
+    {
+      "id": "zknh"
+    },
+    {
+      "id": "zkr"
+    },
+    {
+      "id": "zks"
+    },
+    {
+      "id": "zksed"
+    },
+    {
+      "id": "zksh"
+    },
+    {
+      "id": "zvabd"
+    },
+    {
+      "id": "zvbb"
+    },
+    {
+      "id": "zvbc"
+    },
+    {
+      "id": "zvfbdot32f"
+    },
+    {
+      "id": "zvfbfmin"
+    },
+    {
+      "id": "zvfbfwma"
+    },
+    {
+      "id": "zvfofp4min"
+    },
+    {
+      "id": "zvfofp8min"
+    },
+    {
+      "id": "zvfqbdot8f"
+    },
+    {
+      "id": "zvfqldot8f"
+    },
+    {
+      "id": "zvfwbdot16bf"
+    },
+    {
+      "id": "zvfwldot16bf"
+    },
+    {
+      "id": "zvkg"
+    },
+    {
+      "id": "zvkn"
+    },
+    {
+      "id": "zvkned"
+    },
+    {
+      "id": "zvknha"
+    },
+    {
+      "id": "zvknhb"
+    },
+    {
+      "id": "zvks"
+    },
+    {
+      "id": "zvksed"
+    },
+    {
+      "id": "zvksh"
+    },
+    {
+      "id": "zvqbdot8i"
+    },
+    {
+      "id": "zvqdotq"
+    },
+    {
+      "id": "zvqldot8i"
+    },
+    {
+      "id": "zvzip"
+    }
+  ],
+  "edges": [
+    {
+      "source": "rv32_zk",
+      "target": "rv32_zkn",
+      "weight": 10,
+      "shared": [
+        "aes32dsi",
+        "aes32dsmi",
+        "aes32esi",
+        "aes32esmi",
+        "sha512sig0h",
+        "sha512sig0l",
+        "sha512sig1h",
+        "sha512sig1l",
+        "sha512sum0r",
+        "sha512sum1r"
+      ]
+    },
+    {
+      "source": "rv32_zk",
+      "target": "rv32_zknd",
+      "weight": 2,
+      "shared": [
+        "aes32dsi",
+        "aes32dsmi"
+      ]
+    },
+    {
+      "source": "rv32_zk",
+      "target": "rv32_zkne",
+      "weight": 2,
+      "shared": [
+        "aes32esi",
+        "aes32esmi"
+      ]
+    },
+    {
+      "source": "rv32_zk",
+      "target": "rv32_zknh",
+      "weight": 6,
+      "shared": [
+        "sha512sig0h",
+        "sha512sig0l",
+        "sha512sig1h",
+        "sha512sig1l",
+        "sha512sum0r",
+        "sha512sum1r"
+      ]
+    },
+    {
+      "source": "rv32_zkn",
+      "target": "rv32_zknd",
+      "weight": 2,
+      "shared": [
+        "aes32dsi",
+        "aes32dsmi"
+      ]
+    },
+    {
+      "source": "rv32_zkn",
+      "target": "rv32_zkne",
+      "weight": 2,
+      "shared": [
+        "aes32esi",
+        "aes32esmi"
+      ]
+    },
+    {
+      "source": "rv32_zkn",
+      "target": "rv32_zknh",
+      "weight": 6,
+      "shared": [
+        "sha512sig0h",
+        "sha512sig0l",
+        "sha512sig1h",
+        "sha512sig1l",
+        "sha512sum0r",
+        "sha512sum1r"
+      ]
+    },
+    {
+      "source": "rv64_zbb",
+      "target": "rv64_zbkb",
+      "weight": 4,
+      "shared": [
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbb",
+      "target": "rv64_zk",
+      "weight": 4,
+      "shared": [
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbb",
+      "target": "rv64_zkn",
+      "weight": 4,
+      "shared": [
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbb",
+      "target": "rv64_zks",
+      "weight": 4,
+      "shared": [
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbkb",
+      "target": "rv64_zk",
+      "weight": 5,
+      "shared": [
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbkb",
+      "target": "rv64_zkn",
+      "weight": 5,
+      "shared": [
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zbkb",
+      "target": "rv64_zks",
+      "weight": 5,
+      "shared": [
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zk",
+      "target": "rv64_zkn",
+      "weight": 16,
+      "shared": [
+        "aes64ds",
+        "aes64dsm",
+        "aes64es",
+        "aes64esm",
+        "aes64im",
+        "aes64ks1i",
+        "aes64ks2",
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw",
+        "sha512sig0",
+        "sha512sig1",
+        "sha512sum0",
+        "sha512sum1"
+      ]
+    },
+    {
+      "source": "rv64_zk",
+      "target": "rv64_zknd",
+      "weight": 5,
+      "shared": [
+        "aes64ds",
+        "aes64dsm",
+        "aes64im",
+        "aes64ks1i",
+        "aes64ks2"
+      ]
+    },
+    {
+      "source": "rv64_zk",
+      "target": "rv64_zkne",
+      "weight": 4,
+      "shared": [
+        "aes64es",
+        "aes64esm",
+        "aes64ks1i",
+        "aes64ks2"
+      ]
+    },
+    {
+      "source": "rv64_zk",
+      "target": "rv64_zknh",
+      "weight": 4,
+      "shared": [
+        "sha512sig0",
+        "sha512sig1",
+        "sha512sum0",
+        "sha512sum1"
+      ]
+    },
+    {
+      "source": "rv64_zk",
+      "target": "rv64_zks",
+      "weight": 5,
+      "shared": [
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zkn",
+      "target": "rv64_zknd",
+      "weight": 5,
+      "shared": [
+        "aes64ds",
+        "aes64dsm",
+        "aes64im",
+        "aes64ks1i",
+        "aes64ks2"
+      ]
+    },
+    {
+      "source": "rv64_zkn",
+      "target": "rv64_zkne",
+      "weight": 4,
+      "shared": [
+        "aes64es",
+        "aes64esm",
+        "aes64ks1i",
+        "aes64ks2"
+      ]
+    },
+    {
+      "source": "rv64_zkn",
+      "target": "rv64_zknh",
+      "weight": 4,
+      "shared": [
+        "sha512sig0",
+        "sha512sig1",
+        "sha512sum0",
+        "sha512sum1"
+      ]
+    },
+    {
+      "source": "rv64_zkn",
+      "target": "rv64_zks",
+      "weight": 5,
+      "shared": [
+        "packw",
+        "rolw",
+        "rori",
+        "roriw",
+        "rorw"
+      ]
+    },
+    {
+      "source": "rv64_zknd",
+      "target": "rv64_zkne",
+      "weight": 2,
+      "shared": [
+        "aes64ks1i",
+        "aes64ks2"
+      ]
+    },
+    {
+      "source": "zbb",
+      "target": "zbkb",
+      "weight": 5,
+      "shared": [
+        "andn",
+        "orn",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbb",
+      "target": "zk",
+      "weight": 5,
+      "shared": [
+        "andn",
+        "orn",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbb",
+      "target": "zkn",
+      "weight": 5,
+      "shared": [
+        "andn",
+        "orn",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbb",
+      "target": "zks",
+      "weight": 5,
+      "shared": [
+        "andn",
+        "orn",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbc",
+      "target": "zbkc",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbc",
+      "target": "zk",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbc",
+      "target": "zkn",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbc",
+      "target": "zks",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbkb",
+      "target": "zk",
+      "weight": 7,
+      "shared": [
+        "andn",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbkb",
+      "target": "zkn",
+      "weight": 7,
+      "shared": [
+        "andn",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbkb",
+      "target": "zks",
+      "weight": 7,
+      "shared": [
+        "andn",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "xnor"
+      ]
+    },
+    {
+      "source": "zbkc",
+      "target": "zk",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbkc",
+      "target": "zkn",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbkc",
+      "target": "zks",
+      "weight": 2,
+      "shared": [
+        "clmul",
+        "clmulh"
+      ]
+    },
+    {
+      "source": "zbkx",
+      "target": "zk",
+      "weight": 2,
+      "shared": [
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zbkx",
+      "target": "zkn",
+      "weight": 2,
+      "shared": [
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zbkx",
+      "target": "zks",
+      "weight": 2,
+      "shared": [
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zk",
+      "target": "zkn",
+      "weight": 15,
+      "shared": [
+        "andn",
+        "clmul",
+        "clmulh",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "sha256sig0",
+        "sha256sig1",
+        "sha256sum0",
+        "sha256sum1",
+        "xnor",
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zk",
+      "target": "zknh",
+      "weight": 4,
+      "shared": [
+        "sha256sig0",
+        "sha256sig1",
+        "sha256sum0",
+        "sha256sum1"
+      ]
+    },
+    {
+      "source": "zk",
+      "target": "zks",
+      "weight": 11,
+      "shared": [
+        "andn",
+        "clmul",
+        "clmulh",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "xnor",
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zkn",
+      "target": "zknh",
+      "weight": 4,
+      "shared": [
+        "sha256sig0",
+        "sha256sig1",
+        "sha256sum0",
+        "sha256sum1"
+      ]
+    },
+    {
+      "source": "zkn",
+      "target": "zks",
+      "weight": 11,
+      "shared": [
+        "andn",
+        "clmul",
+        "clmulh",
+        "orn",
+        "pack",
+        "packh",
+        "rol",
+        "ror",
+        "xnor",
+        "xperm4",
+        "xperm8"
+      ]
+    },
+    {
+      "source": "zks",
+      "target": "zksed",
+      "weight": 2,
+      "shared": [
+        "sm4ed",
+        "sm4ks"
+      ]
+    },
+    {
+      "source": "zks",
+      "target": "zksh",
+      "weight": 2,
+      "shared": [
+        "sm3p0",
+        "sm3p1"
+      ]
+    },
+    {
+      "source": "zvbb",
+      "target": "zvkn",
+      "weight": 9,
+      "shared": [
+        "vandn_vv",
+        "vandn_vx",
+        "vbrev8_v",
+        "vrev8_v",
+        "vrol_vv",
+        "vrol_vx",
+        "vror_vi",
+        "vror_vv",
+        "vror_vx"
+      ]
+    },
+    {
+      "source": "zvbb",
+      "target": "zvks",
+      "weight": 9,
+      "shared": [
+        "vandn_vv",
+        "vandn_vx",
+        "vbrev8_v",
+        "vrev8_v",
+        "vrol_vv",
+        "vrol_vx",
+        "vror_vi",
+        "vror_vv",
+        "vror_vx"
+      ]
+    },
+    {
+      "source": "zvkn",
+      "target": "zvkned",
+      "weight": 11,
+      "shared": [
+        "vaesdf_vs",
+        "vaesdf_vv",
+        "vaesdm_vs",
+        "vaesdm_vv",
+        "vaesef_vs",
+        "vaesef_vv",
+        "vaesem_vs",
+        "vaesem_vv",
+        "vaeskf1_vi",
+        "vaeskf2_vi",
+        "vaesz_vs"
+      ]
+    },
+    {
+      "source": "zvkn",
+      "target": "zvknha",
+      "weight": 3,
+      "shared": [
+        "vsha2ch_vv",
+        "vsha2cl_vv",
+        "vsha2ms_vv"
+      ]
+    },
+    {
+      "source": "zvkn",
+      "target": "zvknhb",
+      "weight": 3,
+      "shared": [
+        "vsha2ch_vv",
+        "vsha2cl_vv",
+        "vsha2ms_vv"
+      ]
+    },
+    {
+      "source": "zvkn",
+      "target": "zvks",
+      "weight": 9,
+      "shared": [
+        "vandn_vv",
+        "vandn_vx",
+        "vbrev8_v",
+        "vrev8_v",
+        "vrol_vv",
+        "vrol_vx",
+        "vror_vi",
+        "vror_vv",
+        "vror_vx"
+      ]
+    },
+    {
+      "source": "zvknha",
+      "target": "zvknhb",
+      "weight": 3,
+      "shared": [
+        "vsha2ch_vv",
+        "vsha2cl_vv",
+        "vsha2ms_vv"
+      ]
+    },
+    {
+      "source": "zvks",
+      "target": "zvksed",
+      "weight": 3,
+      "shared": [
+        "vsm4k_vi",
+        "vsm4r_vs",
+        "vsm4r_vv"
+      ]
+    },
+    {
+      "source": "zvks",
+      "target": "zvksh",
+      "weight": 2,
+      "shared": [
+        "vsm3c_vi",
+        "vsm3me_vv"
+      ]
+    }
+  ]
+}

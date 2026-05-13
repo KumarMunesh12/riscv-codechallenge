@@ -1,0 +1,131 @@
+TIER 2 — Cross-Reference Report
+────────────────────────────────────────────────────────────────────────
+Source: GitHub REST API  (30 files fetched)
+────────────────────────────────────────────────────────────────────────
+20 matched, 94 in JSON only, 141 in manual only
+────────────────────────────────────────────────────────────────────────
+
+MATCHED  (20)
+Extensions present in both instr_dict.json and the ISA manual:
+  a  c  d  f  h  m  q  s
+  smrnmi  ssctr  svinval  v  zabha  zacas  zcmop  zcmt
+  zicfiss  zicsr  zimop  zkr
+
+IN JSON ONLY — not mentioned in the ISA manual  (94)
+  c_d                     4 instruction(s)
+  d_zfa                   8 instruction(s)
+  d_zfhmin                2 instruction(s)
+  f_zfa                   7 instruction(s)
+  i                       37 instruction(s)
+  q_zfa                   7 instruction(s)
+  q_zfhmin                2 instruction(s)
+  rv32_c                  1 instruction(s)
+  rv32_c_f                4 instruction(s)
+  rv32_d_zfa              2 instruction(s)
+  rv32_zk                 10 instruction(s)
+  rv32_zkn                10 instruction(s)
+  rv32_zknd               2 instruction(s)
+  rv32_zkne               2 instruction(s)
+  rv32_zknh               6 instruction(s)
+  rv64_a                  11 instruction(s)
+  rv64_c                  10 instruction(s)
+  rv64_d                  6 instruction(s)
+  rv64_f                  4 instruction(s)
+  rv64_h                  3 instruction(s)
+  rv64_i                  15 instruction(s)
+  rv64_m                  5 instruction(s)
+  rv64_q                  4 instruction(s)
+  rv64_q_zfa              2 instruction(s)
+  rv64_zacas              1 instruction(s)
+  rv64_zba                5 instruction(s)
+  rv64_zbb                9 instruction(s)
+  rv64_zbkb               5 instruction(s)
+  rv64_zbp                5 instruction(s)
+  rv64_zbs                4 instruction(s)
+  rv64_zcb                1 instruction(s)
+  rv64_zfh                4 instruction(s)
+  rv64_zk                 16 instruction(s)
+  rv64_zkn                16 instruction(s)
+  rv64_zknd               5 instruction(s)
+  rv64_zkne               4 instruction(s)
+  rv64_zknh               4 instruction(s)
+  rv64_zkr                1 instruction(s)
+  rv64_zks                5 instruction(s)
+  sdext                   1 instruction(s)
+  svinval_h               2 instruction(s)
+  system                  2 instruction(s)
+  u                       1 instruction(s)
+  zabha_zacas             2 instruction(s)
+  zalasr                  8 instruction(s)
+  zawrs                   2 instruction(s)
+  zba                     3 instruction(s)
+  zbb                     17 instruction(s)
+  zbc                     3 instruction(s)
+  zbkb                    7 instruction(s)
+  zbkc                    2 instruction(s)
+  zbkx                    2 instruction(s)
+  zbp                     1 instruction(s)
+  zbs                     4 instruction(s)
+  zcb                     11 instruction(s)
+  zcmp                    6 instruction(s)
+  zfbfmin                 2 instruction(s)
+  zfh                     22 instruction(s)
+  zfh_zfa                 7 instruction(s)
+  zfhmin                  6 instruction(s)
+  zibi                    2 instruction(s)
+  zicbo                   4 instruction(s)
+  zicond                  2 instruction(s)
+  zifencei                1 instruction(s)
+  zk                      15 instruction(s)
+  zkn                     15 instruction(s)
+  zknh                    4 instruction(s)
+  zks                     15 instruction(s)
+  zksed                   2 instruction(s)
+  zksh                    2 instruction(s)
+  zvabd                   5 instruction(s)
+  zvbb                    16 instruction(s)
+  zvbc                    4 instruction(s)
+  zvfbdot32f              1 instruction(s)
+  zvfbfmin                2 instruction(s)
+  zvfbfwma                2 instruction(s)
+  zvfofp4min              1 instruction(s)
+  zvfofp8min              3 instruction(s)
+  zvfqbdot8f              2 instruction(s)
+  zvfqldot8f              2 instruction(s)
+  zvfwbdot16bf            1 instruction(s)
+  zvfwldot16bf            1 instruction(s)
+  zvkg                    2 instruction(s)
+  zvkn                    23 instruction(s)
+  zvkned                  11 instruction(s)
+  zvknha                  3 instruction(s)
+  zvknhb                  3 instruction(s)
+  zvks                    14 instruction(s)
+  zvksed                  3 instruction(s)
+  zvksh                   2 instruction(s)
+  zvqbdot8i               2 instruction(s)
+  zvqdotq                 7 instruction(s)
+  zvqldot8i               2 instruction(s)
+  zvzip                   5 instruction(s)
+
+IN MANUAL ONLY — not present in instr_dict.json  (141)
+  b  n  p  saarinen  sample  sarkar  save  scheid
+  schmidt  scott  scratch  sdtrig  second  section  secure  security
+  see  seed  select  selectively  service  set  setting  setup
+  sewell  sha  shadow  shaked  shanbhogue  shared  shcounterenw  shgatpa
+  shlcofideleg  should  shtvala  shvsatpa  shvstvala  shvstvecd  signals  similar
+  similarly  simple  simpler  simplified  since  single  six  size
+  sizhuo  slightly  smaia  smcdeleg  smcntrpmf  smcsrind  smctr  smdbltrp
+  smepmp  smmpm  smnpm  smstateen  software  some  source  spec
+  special  specific  specifically  specification  specifications  specified  spinney  ssaia
+  ssccfg  ssccptr  sscofpmf  sscounterenw  sscsrind  ssdbltrap  ssdbltrp  ssnpm
+  ssqosid  ssstateen  ssstrict  sstc  sstvala  sstvecd  ssu64xl  stack
+  stage  standard  state  stated  status  stefan  steve  store
+  stores  storing  string  strong  successor  such  supervisor  support
+  supported  supporting  susmit  sv32  sv32x4  sv39  sv39x4  sv48
+  sv48x4  sv57  sv57x4  svade  svadu  svnapot  svpbmt  svrsw60t59b
+  svvptc  sweeney  synchronization  synchronous  systems  zaamo  zabrocki  zalrsc
+  zama16b  zandijk  zdinx  zero  zeroes  zfinx  zhang  zicbom
+  zicboz  zicfilp  zicntr  zihpm  zpm
+
+────────────────────────────────────────────────────────────────────────
+Naming differences handled by stripping "rv_" prefix and lower-casing.

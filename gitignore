@@ -1,0 +1,27 @@
+# ── Dependencies ─────────────────────────────────────────────
+node_modules/
+
+# ── Generated output (re-created by npm start) ────────────────
+output/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS clutter ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor / IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jest cache ────────────────────────────────────────────────
+.jest-cache/
+coverage/
+
+# ── Environment ───────────────────────────────────────────────
+.env
+.env.local

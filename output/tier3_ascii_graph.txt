@@ -1,0 +1,177 @@
+TIER 3 — ASCII Edge List
+────────────────────────────────────────────────────────────────────────
+Format:  [extensionA] ──(N shared)── [extensionB]  : mnemonic, …
+
+  [rv32_zk] ──(10 shared)── [rv32_zkn]
+    ↳ AES32DSI, AES32DSMI, AES32ESI, AES32ESMI …
+
+  [rv32_zk] ──(2 shared)── [rv32_zknd]
+    ↳ AES32DSI, AES32DSMI
+
+  [rv32_zk] ──(2 shared)── [rv32_zkne]
+    ↳ AES32ESI, AES32ESMI
+
+  [rv32_zk] ──(6 shared)── [rv32_zknh]
+    ↳ SHA512SIG0H, SHA512SIG0L, SHA512SIG1H, SHA512SIG1L …
+
+  [rv32_zkn] ──(2 shared)── [rv32_zknd]
+    ↳ AES32DSI, AES32DSMI
+
+  [rv32_zkn] ──(2 shared)── [rv32_zkne]
+    ↳ AES32ESI, AES32ESMI
+
+  [rv32_zkn] ──(6 shared)── [rv32_zknh]
+    ↳ SHA512SIG0H, SHA512SIG0L, SHA512SIG1H, SHA512SIG1L …
+
+  [rv64_zbb] ──(4 shared)── [rv64_zbkb]
+    ↳ ROLW, RORI, RORIW, RORW
+
+  [rv64_zbb] ──(4 shared)── [rv64_zk]
+    ↳ ROLW, RORI, RORIW, RORW
+
+  [rv64_zbb] ──(4 shared)── [rv64_zkn]
+    ↳ ROLW, RORI, RORIW, RORW
+
+  [rv64_zbb] ──(4 shared)── [rv64_zks]
+    ↳ ROLW, RORI, RORIW, RORW
+
+  [rv64_zbkb] ──(5 shared)── [rv64_zk]
+    ↳ PACKW, ROLW, RORI, RORIW …
+
+  [rv64_zbkb] ──(5 shared)── [rv64_zkn]
+    ↳ PACKW, ROLW, RORI, RORIW …
+
+  [rv64_zbkb] ──(5 shared)── [rv64_zks]
+    ↳ PACKW, ROLW, RORI, RORIW …
+
+  [rv64_zk] ──(16 shared)── [rv64_zkn]
+    ↳ AES64DS, AES64DSM, AES64ES, AES64ESM …
+
+  [rv64_zk] ──(5 shared)── [rv64_zknd]
+    ↳ AES64DS, AES64DSM, AES64IM, AES64KS1I …
+
+  [rv64_zk] ──(4 shared)── [rv64_zkne]
+    ↳ AES64ES, AES64ESM, AES64KS1I, AES64KS2
+
+  [rv64_zk] ──(4 shared)── [rv64_zknh]
+    ↳ SHA512SIG0, SHA512SIG1, SHA512SUM0, SHA512SUM1
+
+  [rv64_zk] ──(5 shared)── [rv64_zks]
+    ↳ PACKW, ROLW, RORI, RORIW …
+
+  [rv64_zkn] ──(5 shared)── [rv64_zknd]
+    ↳ AES64DS, AES64DSM, AES64IM, AES64KS1I …
+
+  [rv64_zkn] ──(4 shared)── [rv64_zkne]
+    ↳ AES64ES, AES64ESM, AES64KS1I, AES64KS2
+
+  [rv64_zkn] ──(4 shared)── [rv64_zknh]
+    ↳ SHA512SIG0, SHA512SIG1, SHA512SUM0, SHA512SUM1
+
+  [rv64_zkn] ──(5 shared)── [rv64_zks]
+    ↳ PACKW, ROLW, RORI, RORIW …
+
+  [rv64_zknd] ──(2 shared)── [rv64_zkne]
+    ↳ AES64KS1I, AES64KS2
+
+  [zbb] ──(5 shared)── [zbkb]
+    ↳ ANDN, ORN, ROL, ROR …
+
+  [zbb] ──(5 shared)── [zk]
+    ↳ ANDN, ORN, ROL, ROR …
+
+  [zbb] ──(5 shared)── [zkn]
+    ↳ ANDN, ORN, ROL, ROR …
+
+  [zbb] ──(5 shared)── [zks]
+    ↳ ANDN, ORN, ROL, ROR …
+
+  [zbc] ──(2 shared)── [zbkc]
+    ↳ CLMUL, CLMULH
+
+  [zbc] ──(2 shared)── [zk]
+    ↳ CLMUL, CLMULH
+
+  [zbc] ──(2 shared)── [zkn]
+    ↳ CLMUL, CLMULH
+
+  [zbc] ──(2 shared)── [zks]
+    ↳ CLMUL, CLMULH
+
+  [zbkb] ──(7 shared)── [zk]
+    ↳ ANDN, ORN, PACK, PACKH …
+
+  [zbkb] ──(7 shared)── [zkn]
+    ↳ ANDN, ORN, PACK, PACKH …
+
+  [zbkb] ──(7 shared)── [zks]
+    ↳ ANDN, ORN, PACK, PACKH …
+
+  [zbkc] ──(2 shared)── [zk]
+    ↳ CLMUL, CLMULH
+
+  [zbkc] ──(2 shared)── [zkn]
+    ↳ CLMUL, CLMULH
+
+  [zbkc] ──(2 shared)── [zks]
+    ↳ CLMUL, CLMULH
+
+  [zbkx] ──(2 shared)── [zk]
+    ↳ XPERM4, XPERM8
+
+  [zbkx] ──(2 shared)── [zkn]
+    ↳ XPERM4, XPERM8
+
+  [zbkx] ──(2 shared)── [zks]
+    ↳ XPERM4, XPERM8
+
+  [zk] ──(15 shared)── [zkn]
+    ↳ ANDN, CLMUL, CLMULH, ORN …
+
+  [zk] ──(4 shared)── [zknh]
+    ↳ SHA256SIG0, SHA256SIG1, SHA256SUM0, SHA256SUM1
+
+  [zk] ──(11 shared)── [zks]
+    ↳ ANDN, CLMUL, CLMULH, ORN …
+
+  [zkn] ──(4 shared)── [zknh]
+    ↳ SHA256SIG0, SHA256SIG1, SHA256SUM0, SHA256SUM1
+
+  [zkn] ──(11 shared)── [zks]
+    ↳ ANDN, CLMUL, CLMULH, ORN …
+
+  [zks] ──(2 shared)── [zksed]
+    ↳ SM4ED, SM4KS
+
+  [zks] ──(2 shared)── [zksh]
+    ↳ SM3P0, SM3P1
+
+  [zvbb] ──(9 shared)── [zvkn]
+    ↳ VANDN_VV, VANDN_VX, VBREV8_V, VREV8_V …
+
+  [zvbb] ──(9 shared)── [zvks]
+    ↳ VANDN_VV, VANDN_VX, VBREV8_V, VREV8_V …
+
+  [zvkn] ──(11 shared)── [zvkned]
+    ↳ VAESDF_VS, VAESDF_VV, VAESDM_VS, VAESDM_VV …
+
+  [zvkn] ──(3 shared)── [zvknha]
+    ↳ VSHA2CH_VV, VSHA2CL_VV, VSHA2MS_VV
+
+  [zvkn] ──(3 shared)── [zvknhb]
+    ↳ VSHA2CH_VV, VSHA2CL_VV, VSHA2MS_VV
+
+  [zvkn] ──(9 shared)── [zvks]
+    ↳ VANDN_VV, VANDN_VX, VBREV8_V, VREV8_V …
+
+  [zvknha] ──(3 shared)── [zvknhb]
+    ↳ VSHA2CH_VV, VSHA2CL_VV, VSHA2MS_VV
+
+  [zvks] ──(3 shared)── [zvksed]
+    ↳ VSM4K_VI, VSM4R_VS, VSM4R_VV
+
+  [zvks] ──(2 shared)── [zvksh]
+    ↳ VSM3C_VI, VSM3ME_VV
+
+────────────────────────────────────────────────────────────────────────
+114 extensions,  57 edges
